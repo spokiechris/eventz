@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta name="format-detection" content="telephone=no">
+          <meta name="msapplication-tap-highlight" content="no">
+          <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+          <link rel="icon" href="img/logo.png">
+          <link rel="stylesheet" type="text/css" href="css/general.css">
+          <link rel="stylesheet" type="text/css" href="css/invite.css">
+          <title>Eventz</title>
+  		<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+      <script src="js/login-checker.js"></script>
+      <script src="js/invite.js"></script>
+    </head>
+    <body>
+      <header>
+        <h1>Eventz</h1>
+        <p id="user-tag"></p>
+      </header>
+
+      <main>
+        <article>
+          <h1>Mensen uitnodigen</h1>
+          <hr>
+          <form method="post">
+            <input type="text" id="search-query" placeholder="Zoek gebruiker (gebruikersnaam/ID)">
+            <button type="button" id="search-submit">Zoeken</button><button type="button" onclick="window.location.href = 'main.html';">Bevestigen</button> <!--Met opzet naast elkaar wegens margin. -->
+          </form>
+          <div id="search-result">
+
+          </div>
+        </article>
+      </main>
+
+      <nav>
+          <a href="settings.html"><img src="img/settings.png"></img></a>
+          <a href="main.html"><img src="img/home.png"></img></a>
+          <a href="new-event.html"><img src="img/new-event.png"></img></a>
+      </nav>
+      <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
