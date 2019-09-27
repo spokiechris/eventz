@@ -1,0 +1,44 @@
+article {
+  width:80%;
+  max-width:40em;
+  margin:3em auto;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+  border-radius: 5px;
+  padding:1em 3em 2em 3em;
+	text-align: center;
+}
+
+article a	{
+	display:inline-block;
+	width:48%;
+	background-color: cyan;
+	padding:0.2em 0;
+	text-decoration:none;
+	color:black;
+	font-size: 1em;
+	border:1px solid black;
+}
+
+#link	{
+	background-color: lightgrey;
+}
+
+form input, form textarea, form button  {
+  width:100%;
+  margin-top:2em;
+}
+
+form button {
+  border:1px solid grey;
+  background-color: white;
+  height:2em;
+}
+
+.logo	{
+	background-color:blue;
+	border-radius:50%;
+	height:9em;
+	width:9em;
+	margin:0em auto 1em auto;
+}

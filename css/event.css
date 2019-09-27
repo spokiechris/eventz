@@ -1,0 +1,16 @@
+article {
+  min-height:25em;
+}
+
+article ul  {
+  columns:2;
+  list-style-position: inside;
+}
+
+#date {
+  float:left;
+}
+
+#author-tag {
+  float:right;
+}

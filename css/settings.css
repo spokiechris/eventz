@@ -1,0 +1,14 @@
+article {
+  min-height:25em;
+}
+
+h3  {
+  float:left;
+}
+
+article img {
+  height:3em;
+  border:3px solid #777;
+  border-radius:3px;
+  float:right;
+  cursor:pointer;
